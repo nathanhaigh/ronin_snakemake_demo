@@ -3,4 +3,4 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - wgsim =1.0
+  - wgsim=1.1.11
