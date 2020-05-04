@@ -1,5 +1,7 @@
 from snakemake.remote import FTP
 
+singularity:
+        "docker://continuumio/miniconda3:4.7.12"
 
 FTP = FTP.RemoteProvider()
 
